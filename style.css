@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(17, 132, 181);
+    font-family: sans-serif;
+}
+#container{
+    width: 300px;
+    margin: 0 auto;
+   margin-top: 200px;
+   text-align: center; 
+}
+
+
+#header .logo .fa-weibo{
+    font-size: 50px;
+    color: azure;
+}
+#header h1{
+    font-size: 30px;
+    color: white;
+}
+
+.footer{
+  
+ margin: 10px 10px;
+   text-align: center; 
+}
+.containerfield input{
+font-family: sans-serif;
+    border-radius: 20px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  outline: none;
+  padding-top:18px;
+  padding-bottom:18px ;
+  text-indent: 20px;
+  border-radius: 10px;
+
+
+}
+.sub{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #145587;
+    font-weight: bold;
+    font-size: 20px;
+    color: antiquewhite;
+    padding: 10px 0px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+
+.sub:hover{
+    background-color: #1e6397;
+    cursor: pointer;
+}
+
+
+.footer p,a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+.footer p{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.containerfield .high{
+    border-radius: 10px 10px 0px 0px;
+    /* border-bottom: #831616; */
+    /* width: 50%; */
+}
+
+
+.containerfield .low{
+    border-radius: 0px 0px 10px 10px;
+    /* border-bottom: #831616; */
+    /* width: 50%; */
+    border-top:1px solid gray;
+}
+
+
+
+
+@media screen and (max-width: 310px) {
+    .footer p a{
+      
+        font-size: smaller;
+    align-items: center;
+    justify-content: center;
+text-align: center;
+}}
